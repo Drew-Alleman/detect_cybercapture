@@ -7,10 +7,9 @@ BOOL CALLBACK EnumProc(HWND hwnd, LPARAM) {
     char cls[256] = {};
     GetClassNameA(hwnd, cls, sizeof(cls));
 
-    if (strstr(cls, "border_mywnd_") &&
-        (strncmp(cls, "snxh_", 5) == 0 || strncmp(cls, "snxk_", 5) == 0)) {
+    if (strstr(cls, "snxhk_border_mywnd_")) {
         found = TRUE;
-        return FALSE;   // stop enumeration
+        return FALSE;
     }
     return TRUE;
 }
