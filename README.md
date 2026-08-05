@@ -2,6 +2,7 @@
 Showcases two different methods to detect avast cyber capture sandbox. Source files are found in the `examples/` folder.
 
 ## Methods 
+Additional details on how these were found can be found below:
 - [Windows Class Detection](https://drewalleman.xyz/red-teaming/malware-development/2026/08/02/detecting-avast-cybercapture-using-window-classes)
 - [String Based Detection](https://drewalleman.xyz/red-teaming/malware-development/2026/08/04/detecting-avast-cybercapture-using-strings-in-memory)
 
